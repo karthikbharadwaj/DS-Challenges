@@ -1,0 +1,79 @@
+Unilever Challenge:
+----------------------
+1) Number of Ingredient columns: 153 columns (Formulation.csv and Training_Data.csv) matched by ProductD column 
+
+2) Formulation_data.csv contains the proportion of 153 ingredients in each of the product
+
+3) Product attributes Columns 163:194: 
+ -------------------------------------------------
+Unique values for attribute columns 163: 194
+['Agree strongly (5)' 'Agree a little (4)' 'Disagree a little (2)'
+ 'Neither agree nor disagree (3)' 'Disagree strongly (1)' nan
+ 'Agree Strongly (5)' 'Disagree Strongly (1)'
+ 'Not Noticed/Not Applicable for me' 'Neither agree nor disagree  (3)'
+ 'Agree somewhat (4)' 'Disagree somewhat (2)'
+ 'Neither Agree nor Disagree (3)' 'Dk/cs' 'Agree little (4)'
+ 'Disagree little (2)' 'Strongly agree (5)' 'Strongly Disagree (1)'
+ 'Agree Strongly(5)' 'Agree a little(4)' 'Neither agree nor disagree(3)'
+ 'Disagree Strongly(1)' 'Disagree a little(2)']
+
+ 4) Values of Questions and survey answers columns 195:229
+ -------------------------------------------------
+	['Very good (6)' 'Good (5)' 'Just right (3)'......]
+
+ 5) Values of Problems Columns: 230: 254
+ -------------------------------------------------
+ 
+ [nan 'No' 'Yes' 'no   Product particles left on clothes'
+ 'no   Residue left in washing machine tub/drum' 'no   More Foam/Lather'
+ 'no   Less Foam / Lather' 'no   Bleaching of clothes'
+ 'no   Difficult to remove stains' 'no   Difficult to remove odours'
+ 'no   Give the clothes a musty or stale smell' 'no   Yellowing of clothes'
+ 'no   Irritation on skin' 'Residue left in washing machine tub/drum'
+ 'Difficult to remove stains' 'Yellowing of clothes' 'Less Foam / Lather'
+ 'Irritation on skin' 'More Foam/Lather'
+ 'Give the clothes a musty or stale smell'
+ 'Product particles left on clothes' 'Bleaching of clothes'
+ 'Difficult to remove odours']
+ 
+ 6) Timing related question: Example column 260,298 (Both are duplicate columns)
+ -------------------------------------------------
+ 
+ ['+ hour to less than 1 hour' '15 mins to less than + hour'
+ 'More than 2 hrs but not Overnight' '1 hour to less than 1+ hours'
+ 'Less than 15 mins' '1 + hour to less than 2 hours' nan 'Overnight'
+ 'Do not soak' '1 hour to less than 1\xbd hours'
+ '15 mins to less than \xbd hour' 'Did not soak in last 14 days'
+ '\xbd hour to less than 1 hour' '2 hrs and above but not Overnight'
+ '1 \xbd hour to less than 2 hours']	
+ 
+ Other timing related: Times.used 157
+ -------------------------------------------------
+ '11+' '6 to 10' nan '7-10' '6-10' '10-14' '15 +' '8-11          '
+ '12+           ' 'No of times 24 - 27 (25.5)' 'No of times 12 - 15 (13.5)'
+ 'No of times 20 - 23 (21.5)' 'No of times 16 - 19 (17.5)'
+ 'No of times 28 (28)' 'More than 12 times' '12 times' '10 times'
+ '13 or more times' '7-10 times in the last 14 days'
+ '10 - 12 times in the last 14 days' '6 times in the last 14 days'
+ '10-14 (12)' '15 + (15)' 'Everyday' '10+ times in the last 14 days'
+ '15 plus'
+ 
+ Quantity related columns: Amount Used (column 156)
+ -------------------------------------------------
+ ['About three-fourth (+)' 'Fully used' 'About half (+)' 'One whole pack'
+ 'About three-quarters of a pack' 'About half of a pack'
+ 'Less than a quarter of a pack' 'A fourth  (+)'
+ 'About a quarter of a pack' nan 'About three-quarters of a pack '
+ 'One whole pack                 ' 'About half of pack             '
+ 'About a quarter of a pack      ' 'About half of pack'
+ 'About three quarters of a pack' 'About half a pack' 'One whole pack...'
+ 'About three-quarters of a pack...' 'About half of a pack...']
+  
+ 6) Personal Particulars:  Columns 265- 275
+ -------------------------------------------------
+ 
+7) Other Opinion based columns 277:300
+ -------------------------------------------------
+
+[nan 'Very good (6)' 'Just right (3)' 'Very easy (5)'
+ '**Ease of flowing was Just right (3)'...
