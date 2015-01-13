@@ -1,2 +1,1 @@
-# Unilever-Challenge
-Dextra Unilever Challenge
+Repository for DS-Challenges in Kaggle and Dextra
