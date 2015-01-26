@@ -69,10 +69,10 @@ Unique values for attribute columns 163: 194
  'About three quarters of a pack' 'About half a pack' 'One whole pack...'
  'About three-quarters of a pack...' 'About half of a pack...']
   
- 6) Personal Particulars:  Columns 265- 275
+ 7) Personal Particulars:  Columns 265- 275
  -------------------------------------------------
  
-7) Other Opinion based columns 277:300
+8) Other Opinion based columns 277:300
  -------------------------------------------------
 
 [nan 'Very good (6)' 'Just right (3)' 'Very easy (5)'

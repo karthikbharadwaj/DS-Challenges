@@ -87,15 +87,14 @@ def factorize_non_numeric_data(df,columns):
     new_frame = old_dataframe.apply(lambda x: pd.factorize(x)[0])
     return new_frame
 
-def normalize(x,y):
+def normalize(x):
     '''
     Normalize the numpy arrays
     :param x:
     :return normalized array:
     '''
     norm1 = x / np.linalg.norm(x)
-    norm2 = y / np.linalg.norm(y)
-    return norm1,norm2
+    return norm1
 
 def dimension_reduction(x,dim=None):
     pca = PCA(n_components=None)
